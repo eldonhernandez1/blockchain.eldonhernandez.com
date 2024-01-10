@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Dosis&family=Teko&display=swap');
+
+/* About me styles BEGIN */
+.about p {
+    margin-bottom: 20px !important;
+}
+
+.eldon-img {
+    width: 250px !important;
+    margin: 30px auto !important;
+    
+}
+
+/* About me styles END */
+/* Hero Image styles BEGIN */  
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../img/Kalina-Hero.jpg");
+  
+    /* Set a specific height */
+    height: 20%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .hero-text h1 {
+    font-family: 'Bungee';
+}
+
+header h1 {
+  font-family: 'Bungee';
+  text-align: center;
+}
+
+h2 {
+    font-family: 'Dosis';
+}
+
+h3 {
+    font-family: 'Dosis';
+    font-size: 30px;
+}
+.hero-text p {
+    font-family: 'Teko';
+    font-size: 30px;
+}
+/* Hero Image styles END */
+/* Hero Slide Up styles BEGIN */
+/* div.slide-up {
+    height: 100px;
+    overflow: hidden;
+}
+
+div.slide-up p {
+    animation: 2s slide-up;
+    margin-top: 0%;
+}
+
+@keyframes slide-up {
+    from {
+        margin-top: 100%;
+        height: 200%;
+    }
+
+    to {
+        margin-top: 0%;
+        height: 100%;
+    }
+}
+ */
+/* Hero Slide Up styles END */
+/* Image grid styles BEGIN */
+.skillsGallery {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  .skillsGallery img {
+    width: 80%;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+/* Image grid styles END */
+
+/* About  grid styles BEGIN */
+.aboutGallery {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    width: 100%;
+  }
+  
+  .aboutGallery img {
+    width: 80px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+/* About grid styles END */
+
+/* Spin the react icon BEGIN */
+@keyframes spin {
+    0% {
+      transform:rotate(0)
+    }
+    to {
+      transform:rotate(360deg)
+    }
+  }
+
+.spin {
+    animation-name: spin;
+    animation-duration: 100s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+/* Spin the react icon END*/  

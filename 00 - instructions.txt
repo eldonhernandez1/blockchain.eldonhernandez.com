@@ -1,0 +1,19 @@
+You already installed the "live-server" on your computer. The command was: npm install live-server -g
+
+To start a live server in VS Code. 
+live-server public
+This is to run the public folder in the project you're working on.
+
+------------------
+To modify styles, work on the stylesheet in the root directory.
+styles.css. 
+
+Do not go to the stylesheet in the styles folder.
+
+-------------------
+To modify master styles, use this file:
+tailwind.config.js
+
+-------------------
+To build the stylesheet after making a change, run this command:
+npm run build-css
